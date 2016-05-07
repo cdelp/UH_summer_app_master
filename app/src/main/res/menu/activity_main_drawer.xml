@@ -15,13 +15,17 @@
             android:icon="@drawable/ic_stat_name"
             android:title="Calendar" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/zero"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Zero Textbook Cost" />
     </group>
 
     <item android:title="Communicate">
         <menu>
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Feedback" />
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"

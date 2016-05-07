@@ -168,7 +168,9 @@ public class MainActivity extends AppCompatActivity
             sendMessageR();
         } else if (id == R.id.nav_calendar) {
             readEvents();
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.zero) {
+            readWeb("http://www.outreach.hawaii.edu/summer/zerocost.asp");
+        } else if (id == R.id.feedback) {
 
         } else if (id == R.id.nav_share) {
 
